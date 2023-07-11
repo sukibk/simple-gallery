@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-pic-cont{
+    position: relative;
+    width: 800px;
+}
+
+.small-img-cont{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+}
+
+.small{
+    height: 200px;
+    width: 33.3333%;
+    cursor: pointer;
+}
